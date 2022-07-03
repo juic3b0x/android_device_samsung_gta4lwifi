@@ -6,3 +6,10 @@
 
 soong_namespace {
 }
+
+prebuilt_hidl_interfaces {
+    name: "hidl_netperftuner_interface",
+    interfaces: [
+        "vendor.qti.hardware.wigig.netperftuner@1.0::INetPerfTuner",
+    ],
+}
